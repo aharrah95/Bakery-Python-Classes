@@ -1,16 +1,28 @@
 class Desserts:
-    def __init__(self, kind, flavor, price):
-        self.type = kind
+    def __init__(self, flavor, price):
         self.flavor = flavor
         self.price = price
 
+        print("Welcome to our sweets shop! Take your time looking over our menu.")
+
 
 class Cake(Desserts):
-            cake1 = Desserts('Cake', 'Black Forest Cake', '$30')
-            cake2 = Desserts('Cake', 'Red Velvet Cake', '$25')
-            cake3 = Desserts('Cake', 'Devils Food Cake', '$50')
-            cake4 = Desserts('Cake', 'Angel Food Cake', '$40')
-            cake5 = Desserts('Cake', 'Funfetti Cake', '$20')
+        cake1 = Desserts('Black Forest Cake', '$30')
+        cake2 = Desserts('Red Velvet Cake', '$25')
+        cake3 = Desserts('Devils Food Cake', '$50')
+        cake4 = Desserts('Angel Food Cake', '$40')
+        cake5 = Desserts('Funfetti Cake', '$20')
+        cake6 = Desserts('Tuxedo Cake *dark chocolate sponge cake with delicious vanilla buttercream frosting*', '$35')
+        cake7 = Desserts('German Chocolate Cake', '$35')
 
-            print("I'd love a slice of " + cake1.flavor + "!")
-            print("Certainly. That will be " + cake1.price + " dollars.")
+        print("CAKE MENU:")
+        print(cake1.flavor + " | " + cake1.price)
+        print(cake2.flavor + " | " + cake2.price)
+        print(cake3.flavor + " | " + cake3.price)
+        print(cake4.flavor + " | " + cake4.price)
+        print(cake5.flavor + " | " + cake5.price)
+        print(cake6.flavor + " | " + cake6.price)
+        print(cake7.flavor + " | " + cake7.price)
+
+        print("I'd love a slice of " + cake1.flavor + "!")
+        print("Certainly. That will be " + cake1.price + ".")
