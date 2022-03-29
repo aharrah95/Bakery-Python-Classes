@@ -5,28 +5,30 @@ class Desserts:
 
 
 class Cake(Desserts):
-        cake1 = Desserts('Black Forest Cake', '$30')
-        cake2 = Desserts('Red Velvet Cake', '$25')
-        cake3 = Desserts('Devils Food Cake', '$50')
-        cake4 = Desserts('Angel Food Cake', '$40')
-        cake5 = Desserts('Funfetti Cake', '$20')
-        cake6 = Desserts('Tuxedo Cake', '$35')
-        cake7 = Desserts('German Chocolate Cake', '$35')
+        cake1 = Desserts('Black Forest Cake', '$30.00')
+        cake2 = Desserts('Red Velvet Cake', '$25.50')
+        cake3 = Desserts('Devils Food Cake', '$50.00')
+        cake4 = Desserts('Angel Food Cake', '$40.99')
+        cake5 = Desserts('Funfetti Cake', '$20.00')
+        cake6 = Desserts('Tuxedo Cake', '$35.00')
+        cake7 = Desserts('German Chocolate Cake', '$35.00')
 
-        #print("CAKE MENU:")
-        #print(cake1.flavor + " | " + cake1.price)
-        #print(cake2.flavor + " | " + cake2.price)
-        #print(cake3.flavor + " | " + cake3.price)
-        #print(cake4.flavor + " | " + cake4.price)
-        #print(cake5.flavor + " | " + cake5.price)
-        #print(cake6.flavor + " | " + cake6.price)
-        #print(cake7.flavor + " | " + cake7.price)
-        #print(" ")
+        print("CAKE MENU:")
+        print(cake1.flavor + " | " + cake1.price)
+        print(cake2.flavor + " | " + cake2.price)
+        print(cake3.flavor + " | " + cake3.price)
+        print(cake4.flavor + " | " + cake4.price)
+        print(cake5.flavor + " | " + cake5.price)
+        print(cake6.flavor + " | " + cake6.price)
+        print(cake7.flavor + " | " + cake7.price)
+        print("")
 
-        #print("There is a beautiful " + cake3.flavor + "on display in the bakery window,")
-        #print("")
-        #print("How much for a " + cake7.flavor + "?")
-        #print("A " + cake7.flavor + " will run you about " + cake7.price + ".")
+        print("There is a beautiful " + cake3.flavor + "on display in the bakery window,")
+        print("How much for a " + cake7.flavor + "?")
+        print("A " + cake7.flavor + " will run you about " + cake7.price + ".")
+        print(" ")
+        print("--")
+        print(" ")
 
 
 class IceCream:
@@ -55,6 +57,8 @@ class IceCream:
     print("I'd like a " + iceCream7.flavor + " for me and my son to share, please.")
     print("Excellent choice! That'll be " + iceCream7.price + " please.")
     print("Sometimes I like to go and sit on the clock tower with some " + iceCream9.flavor + " ice cream.")
+    print(" ")
+    print("--")
     print(" ")
 
 
