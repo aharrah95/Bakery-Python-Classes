@@ -12,7 +12,7 @@ class Cake(Desserts):
         cake3 = Desserts('Devils Food Cake', '$50')
         cake4 = Desserts('Angel Food Cake', '$40')
         cake5 = Desserts('Funfetti Cake', '$20')
-        cake6 = Desserts('Tuxedo Cake *dark chocolate sponge cake with delicious vanilla buttercream frosting*', '$35')
+        cake6 = Desserts('Tuxedo Cake', '$35')
         cake7 = Desserts('German Chocolate Cake', '$35')
 
         print("CAKE MENU:")
@@ -23,6 +23,7 @@ class Cake(Desserts):
         print(cake5.flavor + " | " + cake5.price)
         print(cake6.flavor + " | " + cake6.price)
         print(cake7.flavor + " | " + cake7.price)
+        print(" ")
 
         print("I'd love a slice of " + cake1.flavor + "!")
         print("Certainly. That will be " + cake1.price + ".")
