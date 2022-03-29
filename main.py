@@ -40,6 +40,7 @@ class IceCream:
     iceCream6 = Desserts('Cookies & Cream', '$4.50')
     iceCream7 = Desserts('Banana Split', '$5.50')
     iceCream8 = Desserts('Hot fudge sundae', '$4.50')
+    iceCream9 = Desserts('Sea Salt', '$4.00')
 
     print("ICE CREAM MENU:")
     print(iceCream1.flavor + " | " + iceCream1.price)
@@ -50,7 +51,9 @@ class IceCream:
     print(iceCream6.flavor + " | " + iceCream6.price)
     print(iceCream7.flavor + " | " + iceCream7.price)
     print(iceCream8.flavor + " | " + iceCream8.price)
-    print("")
+    print(iceCream9.flavor + " | " + iceCream9.price)
+    print(" ")
 
     print("I'd like a " + iceCream7.flavor + " for me and my son to share, please.")
     print("Excellent choice! That'll be " + iceCream7.price + " please.")
+    print("Sometimes I like to go and sit on the clock tower with some " + iceCream9.flavor + " ice cream.")
