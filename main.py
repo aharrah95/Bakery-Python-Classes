@@ -3,8 +3,6 @@ class Desserts:
         self.flavor = flavor
         self.price = price
 
-        print("Welcome to our sweets shop! Take your time looking over our menu.")
-
 
 class Cake(Desserts):
         cake1 = Desserts('Black Forest Cake', '$30')
@@ -57,3 +55,31 @@ class IceCream:
     print("I'd like a " + iceCream7.flavor + " for me and my son to share, please.")
     print("Excellent choice! That'll be " + iceCream7.price + " please.")
     print("Sometimes I like to go and sit on the clock tower with some " + iceCream9.flavor + " ice cream.")
+    print(" ")
+
+
+class MilkshakesAndFloats:
+    shake1 = Desserts('Vanilla Milkshake', '$6.00')
+    shake2 = Desserts('Chocolate Milkshake', '$6.00')
+    shake3 = Desserts('Strawberry Milkshake', '$6.00')
+    shake4 = Desserts('Cookies & Cream Milkshake', '$6.50')
+    soda1 = Desserts('Cream Soda', '$3.00')
+    soda2 = Desserts('Cola', '$2.00')
+    soda3 = Desserts('Diet Cola', '$2.00')
+    soda4 = Desserts('Root Beer', '$3.00')
+    rootBeerFloat = Desserts('Root Beer Float', '$4.00')
+
+    print(shake1.flavor + " | " + shake1.price)
+    print(shake2.flavor + " | " + shake2.price)
+    print(shake3.flavor + " | " + shake3.price)
+    print(shake4.flavor + " | " + shake4.price)
+    print(soda1.flavor + " | " + soda1.price)
+    print(soda2.flavor + " | " + soda2.price)
+    print(soda3.flavor + " | " + soda3.price)
+    print(soda4.flavor + " | " + soda4.price)
+    print(rootBeerFloat.flavor + " | " + soda1.price)
+    print(" ")
+
+    print("Hey, let's split a " + rootBeerFloat.flavor + "! Only " + rootBeerFloat.price + " bucks, my treat!")
+    print("Ahh, nothing like a good old " + soda1.flavor + " to take me back to the old days.")
+    print("Hi, I need a " + shake2.flavor + " and a " + shake3.flavor + " please.")
